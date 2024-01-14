@@ -1,0 +1,119 @@
+.header{
+    height: 60px;
+    background-color: rgb(41, 41, 41);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-bottom: 1px solid rgb(80, 80, 80);
+    z-index: 100;
+}
+
+.left-header{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    margin-right: 70px;
+
+}
+
+.middle-header{
+    flex: 2;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+ 
+}
+
+.right-header{
+    width: 370px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    margin-left: 40px;
+}
+
+.facebooklogo{
+    width: 42px;
+    margin-left: 15px;
+    margin-right: 8px;
+    padding-top: 4px;
+    cursor: pointer;
+}
+
+
+
+.search-bar{
+    height: 41px;
+    width: 235px;
+    border: none;
+    border-radius: 30px;
+    background-color:  rgb(75, 74, 74);
+    
+}
+.search-bar::placeholder{
+    color: rgb(219, 219, 219);
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+.search-bar::placeholder::after{
+    color: white;
+}
+
+.search-bar-div{
+    flex: 1;
+}
+
+.middle-header-icons{
+    width: 23px;
+}
+
+.right-header-icons{
+    width: 20px;
+}
+
+.right-header-button{
+    background-color: rgb(75, 74, 74);
+    border: none;
+    border-radius: 50%;
+    padding: 10px 10px 8px 10px;
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+.rayen-profile-picture{
+    width: 35px;
+    margin-left: 8px;
+    margin-right: 15px;
+    border-radius: 50%;
+    padding-top: 4px;
+    cursor: pointer;
+}
+.middle-header-div{
+    padding: 15px 37px 13px 37px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.middle-header-div:hover{
+    background-color:  rgb(59, 59, 59);
+}
+.middle-header-div-parasite{
+    cursor: pointer;
+    padding: 17px 37px 15px 37px;
+    border-radius: 4px;
+}
+.middle-header-div-parasite:hover{
+    background-color:  rgb(59, 59, 59);
+}
+.middle-header-div-home{
+ 
+    padding: 12px 37px 16px 37px;
+    border-bottom: 4px solid rgba(0, 204, 255, 0.404);
+}

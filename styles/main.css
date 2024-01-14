@@ -1,0 +1,242 @@
+.main{
+    height: 3000px;
+    width: 490px;
+    margin-left: 410px;
+}
+
+.first-section{
+    height: 280px;
+    background-color: rgb(41, 41, 41);
+    margin-bottom: 15px;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+.second-section{
+    height: 125px;
+    background-color: rgb(41, 41, 41);
+    margin-bottom: 15px;
+    border-radius: 8px;
+
+}
+
+.first-section-first-div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    padding: 0% 4%;
+}
+
+.stories-reels-rooms{
+    display: flex;
+    align-items: center;
+    padding: 15px 38px 15px 38px ;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.stories-reels-rooms:hover{
+    background-color:  rgb(59, 59, 59);
+}
+
+.stories{
+    display: flex;
+    align-items: center;
+    padding: 15px 38px 15px 38px ;
+    border-bottom: 3px solid  rgb(68, 143, 255);
+    cursor: pointer;
+
+}
+
+.stories-icons{
+    width: 23px;
+    margin-right: 7px;
+}
+
+.reels-rooms-icons{
+    width: 23px;
+    margin-right: 7px;
+
+}
+
+.first-section-first-div .text-tooltip{
+    font-size: 14px;
+    color: rgb(221, 221, 221);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.stories-text{
+    font-size: 15px;
+    color: rgb(68, 143, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;    
+}
+
+.first-section-second-div{
+    height: 219px;
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+    justify-content: space-between;
+    padding: 0% 2%;
+    padding-top: 15px;
+}
+
+
+
+.bigpicture{
+    width: 112.500px;
+    height: 190px;
+    border-radius: 12px;
+    object-fit: cover;
+    object-position: 30% 50%;
+    cursor: pointer;
+
+    
+}
+
+
+.bigpicture-rayen{
+    width: 112.500px;
+    height: 150px;
+    border-top-left-radius: 12px; 
+    border-top-right-radius: 12px;
+    cursor: pointer;
+
+  
+}
+
+
+.each-story{
+    position: relative;
+}
+
+.stories-small-picture{
+    width: 30px;
+    border-radius: 50%;
+    border: 4px solid  rgb(68, 143, 255);
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
+
+}
+
+.under-rayen-picture{
+    width: 112.500px;
+    height: 40px;
+    background-color: rgb(41, 41, 41);
+    margin-top: -5px;    
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    position: relative;
+    box-shadow: 1px 1px 10px rgb(31, 31, 31);
+
+}
+
+.plus-button{
+    border: 4px solid rgb(41, 41, 41);
+    background-color: rgb(68, 96, 255);
+    border-radius: 50%;
+    padding: 4px 4px 2px 4px;
+    position: absolute;
+    top: -20px;
+    left: 38px;
+    cursor: pointer;
+
+    
+}
+.plus-image{
+    width: 25px;
+}
+
+.story-name{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    cursor: pointer;
+
+}
+
+.create-story{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    position: absolute;
+    bottom: 5px;
+    left: 22px;
+
+}
+
+.fadit{
+    width: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+
+.second-icons{
+    width: 27px;
+    margin-right: 9px;
+}
+
+.second-icons-text{
+    color: rgb(206, 206, 206);
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: 700;
+
+}
+
+.posting-choice-div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.posting-choice-div:hover{
+    background-color: rgba(128, 128, 128, 0.178);
+}
+
+.posting-div{
+    display: flex;
+    justify-content: space-between;
+    height: 62.5px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.writing-post{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 62.5px;
+    padding: 0% 4%;
+
+}
+
+.whatsonurmind{
+    background-color: rgba(61, 61, 61, 0.678);
+    border: none;
+    border-radius: 30px;
+    height: 38px;
+    width: 400px;
+}
+
+.whatsonurmind::placeholder{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: rgb(206, 206, 206);
+    padding-left: 13px;
+}
+
